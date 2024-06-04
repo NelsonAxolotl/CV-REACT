@@ -29,8 +29,8 @@ const Header = () => {
               <li>Collaboration</li>
               <li>Flexibilité</li>
               <li>Organisé</li>
-              <li>déterminé</li>
-              <li>curieux</li>
+              <li>Déterminé</li>
+              <li>Curieux</li>
             </ul>
           </div>
           <div className="langages">
