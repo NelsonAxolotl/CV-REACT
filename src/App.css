@@ -8,13 +8,13 @@ body {
   font-family: "Nunito", sans-serif;
 }
 .container {
-  max-width: 1280px;
+  max-width: 1300px;
   padding: 10px;
 }
 /*BANDEAU DE GAUCHE SKILLS*/
 .left-band {
   width: 250px;
-  height: 1540px;
+  height: 1580px;
   background-color: rgba(0, 0, 0, 0.832);
   position: absolute;
   top: 0;
@@ -32,7 +32,7 @@ body {
 }
 /*HEADER*/
 .header {
-  max-width: 1280px;
+  max-width: 1300px;
   margin-top: 15px;
   margin-left: 120px;
   margin-bottom: 10px;
@@ -148,7 +148,7 @@ a {
 .main {
   max-width: 1100px;
   height: 1000px;
-  margin-left: 280px;
+  margin-left: 320px;
   /* border: 1px solid red; */
 }
 .frame {
@@ -179,6 +179,9 @@ a {
   justify-content: space-evenly;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.realisation-projets a {
+  font-size: 18px;
 }
 .projets {
   display: flex;
@@ -257,9 +260,13 @@ p {
   list-style-type: disc;
   padding: 3px;
   line-height: 20px;
+  font-size: 18px;
 }
 .experience span {
   color: black;
+}
+.real-p {
+  font-size: 18px;
 }
 /*FORMATION WEB*/
 .formations {
@@ -288,9 +295,13 @@ p {
   margin-top: 5px;
   margin-left: 15px;
   list-style-type: disc;
+  font-size: 18px;
 }
 .form span {
   color: black;
+}
+.form-p p {
+  font-size: 18px;
 }
 .auto {
   display: flex;
@@ -321,6 +332,7 @@ p {
   padding-bottom: 10px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
+  font-size: 18px;
 }
 .link a:hover {
   color: white;
@@ -335,12 +347,13 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 5px;
+  font-size: 18px;
 }
 /*BANDEAU DE GAUCHE SKILLS*/
 .left-band h2 {
   font-size: 30px;
   color: rgb(192, 191, 191);
-  margin-top: 10px;
+  margin-bottom: 15px;
 }
 .left-band h2:hover {
   color: white;
@@ -367,10 +380,7 @@ p {
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
-.skills li:hover {
-  transform: scale(1.2);
-  color: white;
-}
+
 .langages h3 {
   font-size: 25px;
   color: rgb(153, 148, 148);
@@ -389,11 +399,10 @@ p {
   z-index: 1;
   transition: 0.3s ease-in-out;
 }
-.icons:hover {
-  transform: scale(1.1);
-}
+
 .icons img {
   height: 50px;
+  margin-top: 10px;
 }
 .langages {
   margin-top: 10px;
@@ -404,10 +413,7 @@ p {
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
-.langages p:hover {
-  transform: scale(1.05);
-  color: white;
-}
+
 .hobbie {
   margin-top: 10px;
 }
@@ -431,10 +437,7 @@ p {
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
-.hobbie li:hover {
-  transform: scale(1.05);
-  color: white;
-}
+
 /* Media Queries for 
 Responsiveness */
 
