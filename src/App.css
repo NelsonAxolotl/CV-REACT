@@ -446,7 +446,7 @@ Responsiveness */
   }
 
   .left-band {
-    /* order: 2;  */
+    order: 2; /* Change l'ordre d'affichage */
     position: relative;
     width: 100%;
     height: auto;
@@ -457,7 +457,10 @@ Responsiveness */
   .projets {
     margin: 0;
   }
-
+  .header {
+    margin-left: 0;
+    order: 1;
+  }
   .main {
     max-width: 100%;
     margin-left: 0;
