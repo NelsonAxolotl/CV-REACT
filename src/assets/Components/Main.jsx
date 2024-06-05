@@ -6,11 +6,11 @@ const Main = () => {
           <h2>RÉALISATIONS</h2>
         </div>
         <div className="projets">
-          <h3>EXPLICATION PROJETS</h3>
+          <h3>CONSIGNES PROJETS DE FORMATION</h3>
         </div>
         <div className="realisation-projets">
           <div className="center">
-            <h3>PROJET FULL STACK</h3>
+            <h3>PROJET FULL-STACK</h3>
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -85,7 +85,7 @@ const Main = () => {
               et adaptation jusqu’à la réalisation finale).
             </li>
             <li>
-              <span>Régisseur lumière/général: </span> <br />
+              <span>Régisseur lumière / général: </span> <br />
               Coordination de l’accueil et de l’installation technique pour
               divers lieux de spectacle.
               <br />
