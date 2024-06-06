@@ -3,11 +3,11 @@ const Main = () => {
     <>
       <div className="main">
         <div className="frame">
-          <h2>RÉALISATIONS</h2>
+          <h2>RÉALISATIONS (PROJETS FORMATIONS)</h2>
         </div>
-        <div className="projets">
+        {/* <div className="projets">
           <h3>CONSIGNES PROJETS DE FORMATION</h3>
-        </div>
+        </div> */}
         <div className="realisation-projets">
           <div className="center">
             <h3>PROJET FULL-STACK</h3>
