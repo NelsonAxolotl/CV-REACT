@@ -547,6 +547,9 @@ Responsiveness */
   .frame span {
     display: block;
   }
+  .realisation h3 {
+    margin-bottom: 10px;
+  }
 }
 @media only screen and (max-width: 620px) {
   .rightside span {
