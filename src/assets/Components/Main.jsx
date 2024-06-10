@@ -3,7 +3,9 @@ const Main = () => {
     <>
       <div className="main">
         <div className="frame">
-          <h2>RÉALISATIONS (PROJETS FORMATIONS)</h2>
+          <h2>
+            RÉALISATIONS <span>(PROJETS FORMATIONS)</span>
+          </h2>
         </div>
         {/* <div className="projets">
           <h3>CONSIGNES PROJETS DE FORMATION</h3>

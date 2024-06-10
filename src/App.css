@@ -167,6 +167,7 @@ a {
   font-size: 22px;
   color: gray;
 }
+
 /*REALISATION PROJETS*/
 .realisation {
   display: flex;
@@ -183,12 +184,7 @@ a {
 .realisation-projets a {
   font-size: 18px;
 }
-.projets {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 140px;
-}
+
 .projets h3 {
   font-size: 20px;
   margin-top: 20px;
@@ -543,6 +539,12 @@ Responsiveness */
     display: block;
   }
   .auto {
+    display: block;
+  }
+  .frame {
+    height: 60px;
+  }
+  .frame span {
     display: block;
   }
 }
