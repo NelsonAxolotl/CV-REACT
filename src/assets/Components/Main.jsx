@@ -167,17 +167,23 @@ const Main = () => {
             <span>
               Licence aux métiers Technique du Spectacle Vivant, Montpellier.
             </span>
-            <span>2010</span>
+            <div className="date">
+              <span>2010</span>
+            </div>
           </div>
           <div className="licence">
             <span>Licence de Musicologie, Goldsmiths University, Londres.</span>
-            <span>2005</span>
+            <div className="date">
+              <span>2005</span>
+            </div>
           </div>
           <div className="licence">
             <span>
               Baccalauréat littéraire, Lycée Georges Clémenceau, Montpellier.
             </span>
-            <span>1999</span>
+            <div className="date">
+              <span>1999</span>
+            </div>
           </div>
         </div>
       </div>
