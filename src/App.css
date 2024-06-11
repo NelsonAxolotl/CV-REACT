@@ -336,15 +336,16 @@ p {
 /*EDUCATION*/
 .school span {
   color: black;
-  margin-right: 10px;
 }
 .licence {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  padding: 5px 0;
+  margin-right: 15px;
   font-size: 18px;
 }
+
 /*BANDEAU DE GAUCHE SKILLS*/
 .left-band h2 {
   font-size: 30px;
